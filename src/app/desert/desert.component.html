@@ -1,0 +1,11 @@
+<div *ngFor="let dessert of desserts">
+    <div class="section">
+        <div class="cart">
+            <img [src]="dessert.photoUrl">
+            <p class="name">{{dessert.name}}</p>
+            <p>{{dessert.description}}</p>
+            <p class="rating">Star rating: {{dessert.rating}}/5</p>
+        </div>
+        
+    </div>
+</div>

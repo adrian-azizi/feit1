@@ -1,0 +1,29 @@
+.cart{
+    display: inline-block;
+    color: white;
+    width: 30vw;
+}
+.cart img{
+    
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    max-height: 30vh;
+    padding: 40px;
+    padding-bottom: 0;
+}
+.cart p{
+    width: 23vw;
+    display: inline-block;
+    margin-top: 0px;
+    text-align: center;
+}
+.name{
+    font-family: Merienda;
+    font-size: 24px;
+}
+
+.rating{
+    font-size: 14px;
+}

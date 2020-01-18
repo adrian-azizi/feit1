@@ -1,0 +1,11 @@
+<div *ngFor="let drink of drinks">
+    <div class="section">
+        <div class="cart">
+            <img [src]="drink.photoUrl">
+            <p class="name">{{drink.name}}</p>
+            <p>{{drink.description}}</p>
+            <p class="rating">Star rating: {{drink.rating}}/5</p>
+        </div>
+        
+    </div>
+</div>

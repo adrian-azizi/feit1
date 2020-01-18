@@ -1,0 +1,174 @@
+/* INTRO SECTION */
+.fullscreen{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    -webkit-box-orient: vertical;
+    justify-content:center;
+    align-items:center;
+    background-image: url("../assets/img/background.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+.tittle{
+    display: block;
+    color:white;
+    font-size: 7vw;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.back-img{
+    position: absolute;
+    width: 50vw;
+    z-index: 0;
+}
+
+/* WHITE SECTION */
+
+.menu-section{
+    background-color: white;
+    padding: 10vh 20vw;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.side-img{
+    width: 30vw;
+    float: right;
+}
+
+.side-content{
+    float: left;
+    padding: 1vh 3vw;
+    width: 25vw;
+}
+
+.side-content h2{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.side-content h3{
+    padding: 16px 0 16px 10px;
+    font-size: 24px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #424242;
+    transition-duration: 0.5s;
+}
+
+.side-content h3:hover{
+    color: white;
+    background-color: black;
+}
+/* INGREDIENTS SECTION */
+
+.ingredients-section{
+    width: auto;
+    color: white;
+    padding-top: 20vh;
+    padding: 30vh 20vw;
+    text-align: center;
+    background-image: url("../assets/img/pizza.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: center;
+}
+
+.ingredients-section div{
+    display: flex;
+    -webkit-box-orient:vertical;
+    justify-content:center;
+    align-items:center;
+}
+
+.ingredients-section h2{
+    line-height: 44px;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.ingredients-section p{
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+
+/* BUTTONS */
+
+.transparent-button{
+    display: inline-block;
+    color: #cfd6a4;
+    background-color: transparent;
+    font-size: 22px;
+    border: solid;
+    width: auto;
+    border-width: 1px;
+    padding: 2vh 2vw;
+    border-color: #cfd6a4;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    transition-duration: 0.5s;
+}
+
+.transparent-button:hover{
+    color: white;
+    background-color: #cfd6a4;
+}
+
+/* MENU */
+
+.menu-navigation li{
+    display: inline;
+    margin-right: 20vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 26px;
+    padding-bottom: 5px;
+    transition-duration: 0.4s;
+}
+
+.menu-navigation li:hover{
+    border-bottom: 2px solid white;
+
+}
+
+.menu-navigation li:first-child{
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 5vw;
+}
+
+.menu-navigation li:last-child{
+    margin-right: 0;
+}
+
+.section-menu{
+    margin-top: 5vh;
+    background-color: black;
+    color: white;
+}
+
+.menu-category{
+    column-count: 3;
+    padding: 5vw;
+}
+
+/* FOOTER */
+
+.footer-video{
+    position: absolute;
+    width: 100%;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.footer{
+    color: white;
+}
+

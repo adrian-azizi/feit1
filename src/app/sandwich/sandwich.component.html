@@ -1,0 +1,11 @@
+<div *ngFor="let sandwich of sandwiches">
+    <div class="section">
+        <div class="cart">
+            <img [src]="sandwich.photoUrl">
+            <p class="name">{{sandwich.name}}</p>
+            <p>{{sandwich.description}}</p>
+            <p class="rating">Star rating: {{sandwich.rating}}/5</p>
+        </div>
+        
+    </div>
+</div>

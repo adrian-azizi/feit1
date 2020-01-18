@@ -1,0 +1,19 @@
+   .section{
+      background-color: black;
+      column-count: 3;
+      height: 40vw;
+      padding: 5vw;
+  }
+  .cart{
+      display: inline-block;
+      color: white;
+  }
+  .cart img{
+      width: 23vw;
+      display: inline-block;
+      border-radius: 10px;
+  }
+  .cart p{
+      width: 23vw;
+      display: inline-block;
+  }

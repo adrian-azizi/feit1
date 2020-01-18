@@ -1,0 +1,26 @@
+
+div{
+    position: absolute;
+}
+
+.side-nav{
+    text-align: right;
+    margin-left: 80vw;
+}
+
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+a:first-child{
+    padding-top: 5vw;
+}
+
+a:hover{
+    opacity: 0.7;
+}

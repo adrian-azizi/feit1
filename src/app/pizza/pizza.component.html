@@ -1,0 +1,11 @@
+<div *ngFor="let pizza of pizzas">
+    <div class="section">
+        <div class="cart">
+            <img [src]="pizza.photoUrl">
+            <p class="name">{{pizza.name}}</p>
+            <p>{{pizza.description}}</p >
+            <p class="rating">Star rating: {{pizza.rating}}/5</p>
+        </div>
+        
+    </div>
+</div>
